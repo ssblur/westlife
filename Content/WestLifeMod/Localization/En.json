@@ -1,0 +1,11 @@
+{
+    "BuildMode": {
+        "WestLifeMod.SaloonDoor": "See You Saloon Door",
+        "WestLifeMod.HalfDoor": "Ain't Enough Room Safety Gate",
+        "WestLifeMod.CowSkull": "Sick of Your Skull Mount"
+    },
+    "Clothes": {
+        "WestLifeMod.Bandana": "Plain Bandana",
+        "WestLifeMod.Stanson": "The Stanson"
+    }
+}

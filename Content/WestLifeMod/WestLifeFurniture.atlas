@@ -1,0 +1,39 @@
+WestLifeMod.CowSkullRight
+loc 0 0 32 32
+piv 20 40
+off 0 64
+
+WestLifeMod.CowSkullDown
+loc 0 0 32 32
+piv 12 40
+off 64 64
+
+WestLifeMod.CowSkullUp
+loc 0 0 32 32
+piv 24 24
+off 0 96
+
+WestLifeMod.CowSkullLeft
+loc 0 0 32 32
+piv 8 32
+off 64 96
+
+WestLifeMod.SpitoonRight
+loc 0 0 32 32
+piv 16 24
+off 0 128
+
+WestLifeMod.SpitoonDown
+loc 0 0 32 32
+piv 16 24
+off 32 128
+
+WestLifeMod.SpitoonUp
+loc 0 0 32 32
+piv 16 24
+off 32 128
+
+WestLifeMod.SpitoonLeft
+loc 0 0 32 32
+piv 16 24
+off 0 128
