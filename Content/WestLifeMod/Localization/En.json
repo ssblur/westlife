@@ -2,7 +2,8 @@
     "BuildMode": {
         "WestLifeMod.SaloonDoor": "See You Saloon Door",
         "WestLifeMod.HalfDoor": "Ain't Enough Room Safety Gate",
-        "WestLifeMod.CowSkull": "Sick of Your Skull Mount"
+        "WestLifeMod.CowSkull": "Sick of Your Skull Mount",
+        "WestLifeMod.Spitoon": "Spittin' Distance Spitoon"
     },
     "Clothes": {
         "WestLifeMod.Bandana": "Plain Bandana",
