@@ -1,7 +1,7 @@
 using TinyLife.Objects;
 using TinyLife.Utilities;
 using Microsoft.Xna.Framework;
-using MLEM.Misc;
+using MLEM.Maths;
 using MLEM.Data;
 using MLEM.Data.Content;
 using TinyLife.Tools;
