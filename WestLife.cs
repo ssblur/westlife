@@ -19,15 +19,15 @@ using Newtonsoft.Json.Linq;
 using Microsoft.Xna.Framework.Content;
 
 namespace WestLife {
-    public class WestLifeMod : Mod {
+    public class WestLife : Mod {
         public static readonly CanExecuteResult WaitingRequired = new CanExecuteResult("mustwait");
 
         public static Logger Logger { get; private set; }
         public override string Name => "WestLife";
         public override string Description => "Welcome to the Tiny, Tiny West!";
-        public override string TestedVersionRange => "[0.43.6,0.43.10]";
+        public override string TestedVersionRange => "[0.48.0,0.48.0]";
 
-        public override TextureRegion Icon => WestLifeMod.UITextures[0, 0];
+        public override TextureRegion Icon => WestLife.UITextures[0, 0];
         public override bool RequiresHarmony => false;
 
         public static UniformTextureAtlas UITextures;
@@ -52,7 +52,7 @@ namespace WestLife {
 
             texturePacker.Add(
                 content.Load<Texture2D>("UiTextures"), 
-                r => WestLifeMod.UITextures = new UniformTextureAtlas(r, 2, 2)
+                r => WestLife.UITextures = new UniformTextureAtlas(r, 2, 2)
             );
             
             texturePacker.Add(

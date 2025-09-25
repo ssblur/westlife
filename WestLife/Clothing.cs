@@ -51,7 +51,7 @@ namespace WestLife.Clothing {
         public static void Setup() {
             Clothes.Register(
                 new Clothes(
-                    WestLifeMod.Info.Id + ".Bandana",
+                    WestLife.Info.Id + ".Bandana",
                     ClothesLayer.Accessories,
                     BandanaAtlas,
                     new Point(0, 0),
@@ -64,12 +64,12 @@ namespace WestLife.Clothing {
                     StylePreference.Masculine,
                     ColorScheme.Flannel
                 ) {
-                    Icon = WestLifeMod.Info.Mod.Icon
+                    Icon = WestLife.Info.Mod.Icon
                 }
             );
             Clothes.Register(
                 new Clothes(
-                    WestLifeMod.Info.Id + ".Stanson",
+                    WestLife.Info.Id + ".Stanson",
                     ClothesLayer.HeadAccessories,
                     StansonAtlas,
                     new Point(0, 0),
@@ -80,9 +80,9 @@ namespace WestLife.Clothing {
                     ClothesIntention.Workout & 
                     ClothesIntention.Party,
                     StylePreference.Masculine,
-                    ColorScheme.Load(WestLifeMod.LUT[0, 3])
+                    ColorScheme.Load(WestLife.LUT[0, 3])
                 ) {
-                    Icon = WestLifeMod.Info.Mod.Icon,
+                    Icon = WestLife.Info.Mod.Icon,
                     LayersToHide = ClothesLayer.Hair
                 }
             );

@@ -33,25 +33,25 @@ namespace WestLife.Furniture {
 
         public static void Setup() {
             FurnitureType.Register(new FurnitureType.TypeSettings(
-                WestLifeMod.Info.Id + ".CowSkull",
+                WestLife.Info.Id + ".CowSkull",
                 new Point(1, 1),
                 ObjectCategory.WallHanging,
                 400,
-                ColorScheme.Load(WestLifeMod.LUT[0, 0]),
+                ColorScheme.Load(WestLife.LUT[0, 0]),
                 ColorScheme.White
             ) {
-                Icon = WestLifeMod.Info.Mod.Icon,
+                Icon = WestLife.Info.Mod.Icon,
                 DefaultRotation = Direction2.Down,
                 Tab = FurnitureTool.Tab.Decoration & FurnitureTool.Tab.LivingRoom,
             });
             FurnitureType.Register(new FurnitureType.TypeSettings(
-                WestLifeMod.Info.Id + ".Spitoon",
+                WestLife.Info.Id + ".Spitoon",
                 new Point(1, 1),
                 ObjectCategory.TrashCan & ObjectCategory.SmallObject,
                 100,
-                ColorScheme.Load(WestLifeMod.LUT[0, 2])
+                ColorScheme.Load(WestLife.LUT[0, 2])
             ) {
-                Icon = WestLifeMod.Info.Mod.Icon,
+                Icon = WestLife.Info.Mod.Icon,
                 ConstructedType = typeof(TrashCan),
                 Tab = FurnitureTool.Tab.Decoration & FurnitureTool.Tab.Outside,
             });
