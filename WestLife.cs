@@ -17,6 +17,7 @@ using TinyLife.Objects;
 using TinyLife.Tools;
 using Newtonsoft.Json.Linq;
 using Microsoft.Xna.Framework.Content;
+using TinyLife.World;
 
 namespace WestLife {
     public class WestLife : Mod {
@@ -61,6 +62,7 @@ namespace WestLife {
             );
             
             Furniture.FurnitureTypes.Initialize(logger, content, texturePacker, info);
+            Doors.OpeningTypes.Initialize(logger, content, texturePacker, info);
             Clothing.Clothing.Initialize(logger, content, texturePacker, info);
         }
         public override IEnumerable<string> GetCustomFurnitureTextures(ModInfo info) {
