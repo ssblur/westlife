@@ -26,7 +26,7 @@ namespace WestLife {
         public static Logger Logger { get; private set; }
         public override string Name => "WestLife";
         public override string Description => "Welcome to the Tiny, Tiny West!";
-        public override string TestedVersionRange => "[0.48.0,0.48.0]";
+        public override string TestedVersionRange => "[0.49.0,0.49.0]";
 
         public override TextureRegion Icon => WestLife.UITextures[0, 0];
         public override bool RequiresHarmony => false;
